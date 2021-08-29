@@ -9,6 +9,7 @@ body {
     background-repeat: no-repeat; 
     height: 60px ;
     background-color: darkslategray;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 31%)
 }
 .bannerimage{
     height: 50px ;
@@ -113,4 +114,13 @@ t1{
 }
 a:hover { 
 color: darkgray;
+}
+.pack-box{
+    width: 48vw;
+    height: 30vw;
+    float: left;
+    padding: 10;
+    background-color: darkslategray;
+    padding-left: vw;
+    border-radius: 0.5vw;
 }
