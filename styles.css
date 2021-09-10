@@ -31,7 +31,7 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: darkslategray;
+  background-color: slategray;
   color: aliceblue;
 }
 .topnavimg{
@@ -125,6 +125,10 @@ a{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.card:hover{
+  background-color: slategray;
+  color: aliceblue;
 }
 
 /* Header/Blog Title */
