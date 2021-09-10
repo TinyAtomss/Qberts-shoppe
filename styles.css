@@ -106,5 +106,24 @@ a{
 }
 .topimg{
     height: 18.68vw;
-    width: vw;
+    align-content: center;
+}
+/* Add a card effect for articles */
+.card {
+  background-color: #333;
+  padding: 15px;
+  margin-top: 1px;
+  border-radius: 0.6vw
+}
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
