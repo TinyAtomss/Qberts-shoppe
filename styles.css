@@ -36,6 +36,9 @@ body {
 }
 .topnavimg{
     height: 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Create three unequal columns that floats next to each other */
@@ -105,8 +108,10 @@ a{
     padding: 14px 16px;
 }
 .topimg{
-    height: 18.68vw;
-    align-content: center;
+    height: 18vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Add a card effect for articles */
 .card {
