@@ -115,6 +115,12 @@ a{
   margin-top: 1px;
   border-radius: 0.6vw
 }
+.cardimg{
+    height:22vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* Header/Blog Title */
 .header {
   padding: 30px;
