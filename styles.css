@@ -91,6 +91,16 @@ p{
     text-align: center;
     font-weight: bold;
 }
+p1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray;
+    text-shadow: 2px 2px #381218; 
+    font-size: 14px ;
+    padding-left:18%;
+    padding-right:5%;
+    text-align: center;
+    font-weight: bold;
+}
 h2{
     font-family: Arial, Helvetica, sans-serif;
     color: lightgray;
@@ -143,4 +153,75 @@ a{
   content: "";
   display: table;
   clear: both;
+}
+.gcontent {
+  background-color: #333;
+  padding: 10px;
+;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .gcolumn {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .gcolumn {
+    width: 100%;
+  }
+}
+.grow {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.grow,
+.grow > .gcolumn {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.gcolumn {
+  float: left;
+  width: 25%;
+}
+gp{
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray;
+    text-shadow: 2px 2px #381218; 
+    font-size: 16px ;
+    padding: 2% ;
+    padding-left:5%;
+    padding-right:5%;
+    text-align: center;
+    font-weight: bold;
+}h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+  text-align: center;
+  color: aliceblue
+}
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
 }
