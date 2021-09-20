@@ -225,3 +225,7 @@ gp{
   width: 100%;
   height: auto;
 }
+.dis:hover{
+  background-color: slategray;
+  color: aliceblue;
+}
