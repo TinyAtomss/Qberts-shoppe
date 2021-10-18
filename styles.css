@@ -157,7 +157,15 @@ a{
 .gcontent {
   background-color: #333;
   padding: 10px;
-;
+}
+.gcontent:hover {
+  background-color: #333;
+  padding: 10px;
+    
+      -webkit-transition: height 0.5s ease-out;
+  -moz-transition: height 0.5s ease-out;
+  -o-transition: height 0.5s ease-out;
+  transition: height 0.5s ease-out;
 }
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
